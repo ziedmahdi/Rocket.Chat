@@ -25,7 +25,8 @@ Package.onUse(function(api) {
 	api.use('ddp-rate-limiter');
 	api.use('underscore');
 	api.use('mongo');
-	api.use('underscorestring:underscore.string');
+	api.use('email@1.1.18');
+	api.use('underscorestring:underscore.string@3.3.4');
 	api.use('matb33:collection-hooks');
 	api.use('service-configuration');
 	api.use('check');
@@ -35,6 +36,12 @@ Package.onUse(function(api) {
 	api.use('rocketchat:version');
 	api.use('rocketchat:logger');
 	api.use('rocketchat:custom-oauth');
+	api.use('rocketchat:authorization', {unordered: true});
+	api.use('raix:push@3.0.2');
+	api.use('rocketchat:push-notifications', {unordered: true});
+	api.use('rocketchat:sandstorm', {unordered: true});
+
+	api.use('mizzao:timesync@0.4.0');
 
 	api.use('templating', 'client');
 	api.use('kadira:flow-router');

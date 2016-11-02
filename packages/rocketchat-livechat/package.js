@@ -24,10 +24,11 @@ Package.onUse(function(api) {
 	api.use('ecmascript');
 	api.use('underscorestring:underscore.string');
 	api.use('rocketchat:lib');
+	api.use('rocketchat:action-links');
 	api.use('rocketchat:authorization');
 	api.use('rocketchat:logger');
 	api.use('rocketchat:api');
-	api.use('konecty:user-presence');
+	api.use('konecty:user-presence@1.2.9');
 	api.use('rocketchat:ui');
 	api.use('kadira:flow-router', 'client');
 	api.use('templating', 'client');

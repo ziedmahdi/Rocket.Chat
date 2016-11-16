@@ -6,6 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+	api.use('ecmascript');
 	api.use('rocketchat:lib');
 	api.use('rocketchat:version');
 	api.use('coffeescript');

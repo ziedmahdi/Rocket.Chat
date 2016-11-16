@@ -5,6 +5,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+	api.use('ecmascript');
 	api.use('check');
 	api.use('oauth');
 	api.use('oauth2');

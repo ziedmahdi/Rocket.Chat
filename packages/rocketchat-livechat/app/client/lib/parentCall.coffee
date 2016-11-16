@@ -1,6 +1,6 @@
 @parentCall = (method, args = []) ->
 	data =
-		src: 'rocketchat'
+		src: 'labbachat'
 		fn: method
 		args: args
 
